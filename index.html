@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="/script/script.js" async></script>
+    <title>HW4</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="nav-items">
+            <a class="logo" href="#">JOURNEY</a>
+            <div class="nav-button">
+                <a class="icon-1"></a>
+                <a class="icon-2"></a>
+                <a class="icon-3"></a>
+                <p class="nav-login">Welcome, <span class="green-font">Log In</span> or <span class="green-font">Sign Up</span></p>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <button type="submit" class="change-theme">Change Theme</button>
+        <div  class="form-wrapper">
+            <div class="block"></div>
+            <form class="form">
+                <div class="signup-login">
+                    <p class="signup">Sign Up</p>
+                    <p class="login green-font">Log In</p>
+                </div>
+                <div class="OAuth">
+                    <div class="facebook">
+                        <i class="fa-brands fa-facebook-f facebook-logo"></i>
+                        <p class="facebook-text">Facebook</p>
+                    </div>
+                    <div class="google">
+                        <i class="fa-brands fa-google-plus-g google-logo"></i>
+                        <p class="google-text">Google</p>
+                    </div>
+                </div>
+                <div class="or-separator">
+                    <hr>
+                    <p class="or">or</p>
+                    <hr>
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="First Name" class="input-fields" required>
+                    <input type="text" placeholder="Last Name" class="input-fields" required>
+                    <input type="email" placeholder="Email" class="input-fields" required>
+                    <input type="password" placeholder="Choose Password" class="input-fields" required>
+                    <input type="password" placeholder="Confirm Password" class="input-fields" required>
+                </div>
+                <div class="condition">
+                    <div class="checkbox">
+                        <div class="box">
+                            <label for="check">
+                                <input
+                                    type="checkbox"
+                                    id="check"
+                                />
+                                <span class="check-mark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <p class="condition-text">Agree our <span class="green-font">Terms</span> & <span class="green-font">Conditions</span></p>
+                </div>
+                <button class="submit-button" type="submit">Create Account</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
