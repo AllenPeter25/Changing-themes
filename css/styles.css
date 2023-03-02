@@ -1,9 +1,6 @@
 body {
     transition: 1s;
-    /* font-family: Verdana; */
-    /* background-image: url('/img/background.png'); */
     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-    /* background: linear-gradient(90deg,rgb(40, 40, 40),black); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -28,11 +25,6 @@ body {
     padding-left: 81px;
     cursor: pointer;
     transition: 0.2s;
-    /* font-family: 'Quattrocento Sans'; */
-}
-
-.logo:hover{
-    color: #3cb878;
 }
 
 .nav-button{
@@ -197,7 +189,6 @@ hr {
 }
 
 .input-fields{
-    /* border:0.5 thin rgba(255, 255, 255, 0.5); */
     height: 46px;
     width: 280px;
     padding-left: 15px;
